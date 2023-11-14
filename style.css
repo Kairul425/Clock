@@ -175,3 +175,37 @@ body {
     opacity: 0;
   }
 }
+
+/* mobile phone */
+
+@media only screen and (max-width: 767px) {
+  .clock {
+    width: 350px;
+    height: 450px;
+  }
+
+  .numbers {
+    top: 25px;
+    width: 290px;
+    height: 290px;
+  }
+
+  .numbers span {
+    font-size: 1em;
+  }
+
+  .numbers .circle {
+    width: 180px;
+    height: 180px;
+  }
+
+  .numbers .circle#min {
+    width: 130px;
+    height: 130px;
+  }
+
+  .numbers .circle#hrs {
+    width: 80px;
+    height: 80px;
+  }
+}
